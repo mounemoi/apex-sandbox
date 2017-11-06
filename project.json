@@ -1,0 +1,8 @@
+{
+  "name": "sample",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::904257859374:role/sample_lambda_function",
+  "environment": {}
+}
