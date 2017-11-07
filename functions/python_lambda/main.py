@@ -2,6 +2,7 @@
 Lambda example with external dependency
 """
 
+import os
 import logging
 import requests
 
@@ -13,6 +14,7 @@ def handle(event, context):
     Lambda handler
     """
     logger.info("%s - %s", event, context)
+    logger.info("ENV: %s", os.environ)
 
     url = "https://api.ipify.org?format=json"
 

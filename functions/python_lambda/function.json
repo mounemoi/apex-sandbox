@@ -6,6 +6,7 @@
         "build": "pip install -r requirements.txt -t ./site-packages"
     },
     "environment": {
-        "PYTHONPATH": "/var/runtime:/var/task/site-packages"
+        "PYTHONPATH": "/var/runtime:/var/task/site-packages",
+        "ENV_TEST": "test env"
     }
 }
